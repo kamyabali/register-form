@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+
+<body>
+    <!-- Register -->
+    <div class="Register">
+        <div class="bac"></div>
+        <form action="" method="post">
+
+            <h1>Register</h1>
+
+            <div><label for="fname">First Name*</label></div>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+
+            <div><label for="lname">Last Name*</label></div>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
+            <div><label for="email">Gmail*</label>
+                <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+
+                <div><label for="Birthday">Birthday</label></div>
+                <input type="date" name="Birthday" id="Birthday">
+
+                <div><label for="City"> City</label></div>
+                <select name="City" id="City">
+
+                    <option value="">Surat</option>
+                    <option value="">Delhi</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Ahmedabad</option>
+                    <option value="">Chennai</option>
+                    <option value="">Kolkata</option>
+                    <option value="">Kanpur</option>
+                    <option value="">Pune</option>
+                    <option value="">Mumbai</option>
+                    
+                </select>
+
+                <div> <label for="gender" required>Gender</label></div>
+                
+                <input type="radio" name="gender"/>Male
+                <input type="radio" name="gender"/>Female
+                <input type="radio" name="gender"/>Other
+                <br>
+
+                <div><label for="">Hobbies</label></div>
+                <input type="checkbox" id="" name="">Running
+                <input type="checkbox" id="" name="">Drawing
+                <input type="checkbox" id="" name="">Travel
+                <br><br>
+                <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>
